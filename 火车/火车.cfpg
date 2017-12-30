@@ -1,0 +1,18 @@
+<Projects version="2.0">
+	<Project active="1">»ð³µ.cfp</Project>
+	<File active="0">..\1.h</File>
+	<File active="0">..\line.cpp</File>
+	<File active="0">..\drawAB.cpp</File>
+	<File active="0">..\main.cpp</File>
+	<File active="0">..\input.cpp</File>
+	<File active="0">..\check.cpp</File>
+	<File active="0">..\control.cpp</File>
+	<File active="0">..\Bxy.cpp</File>
+	<File active="0">..\control2.cpp</File>
+	<File active="0">..\Axy.cpp</File>
+	<File active="0">..\Atrain.cpp</File>
+	<File active="0">..\Btrain.cpp</File>
+	<File active="0">..\getinput.cpp</File>
+	<File active="0">..\output.cpp</File>
+	<File active="1">..\pictureGet.cpp</File>
+</Projects>

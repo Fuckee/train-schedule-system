@@ -1,0 +1,57 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+#include<math.h>
+#include<windows.h>
+#include"1.h"
+void inturn()//交替策略 
+{
+	int n;
+	if(fabs(a.x-aI)<EXP||fabs(b.x-bI)<EXP)//总判断：是否有火车即将进站 
+	{
+	 if(fabs(a.x-aI)<EXP&&fabs(b.x-bI)<EXP)//A,B同时进站 
+		{
+			if(a.s!=0&&b.s!=0)
+			{
+				if(n%2==0)//判断循环的变量奇偶性，从而决定先通过的火车 
+					{
+						bv=0;
+						b.s=0;
+				        s4=0;
+			  		}
+					else
+					{
+						av=0;
+						a.s=0;
+				         s3=0;
+					}
+					n=n+1;
+			}
+		}
+		if((fabs(a.x-aI)<EXP)&&(fabs(b.x-bI)>EXP))//A进站而B不进 
+		{
+			if(a.s!=0)
+			{
+				if(flag==2)
+				{
+					a.s=0;
+					av=0;
+					s3=0;
+				}
+			}
+				
+		}
+		else if((fabs(a.x-aI)>EXP)&&(fabs(b.x-bI)<EXP))//B进站而A不进 
+		{
+			if(b.s!=0)
+			{
+				if(flag==1)
+				{
+					b.s=0;
+					bv=0;
+					s4=0;
+				}
+			}
+		}
+	}
+}
